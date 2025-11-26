@@ -136,11 +136,12 @@ export default function App() {
   const selectedWineRating = selectedWineId ? ratings.find(r => r.wineId === selectedWineId) : undefined;
   const selectedWineEvent = selectedWine ? events.find(e => e.id === selectedWine.eventId) : undefined;
 
-  return (
-    <div className="min-h-screen bg-stone-900 flex items-center justify-center p-4">
-      {/* Mobile Phone Frame */}
-      <div className="w-full max-w-[380px] h-[812px] bg-black rounded-[3rem] p-3 shadow-2xl">
-        <div className="w-full h-full bg-white rounded-[2.5rem] overflow-hidden flex flex-col">
+return (
+  <div className="min-h-screen" style={{ backgroundColor: '#F8F4E3' }}>
+    <div className="max-w-xl mx-auto flex flex-col min-h-screen">
+      {/* App Content */}
+      <div className="flex-1 overflow-y-auto">
+
           {/* App Content */}
           <div className="flex-1 overflow-y-auto" style={{ backgroundColor: '#F8F4E3' }}>
             {/* Header */}
