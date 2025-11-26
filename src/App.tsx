@@ -6,7 +6,7 @@ import { WineDetail } from './components/WineDetail';
 import { AddWine } from './components/AddWine';
 import { RateWine } from './components/RateWine';
 import { Menu, X, Calendar, Home } from 'lucide-react';
-import logo from 'figma:asset/8c9f82209a149b0ba432ea5d8a40ee8de2bb30a6.png';
+import logo from './assets/8c9f82209a149b0ba432ea5d8a40ee8de2bb30a6.png';
 
 export interface Event {
   id: string;
