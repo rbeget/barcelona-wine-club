@@ -173,7 +173,8 @@ export default function App() {
       style={{ backgroundColor: '#F8F4E3' }}
     >
       {/* Main responsive container */}
-      <div className="w-full max-w-xl mx-auto flex flex-col min-h-screen shadow-none">
+     <div className="w-full flex flex-col min-h-screen shadow-none">
+
         {/* Header */}
         <header
           className="text-white relative"
